@@ -12,5 +12,28 @@
         "destination": "/index.html"
       }
     ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "palp-uas-22100032",
+          "appId": "1:842365244917:android:27fa79a4488f8cb0ccfcbc",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "palp-uas-22100032",
+          "configurations": {
+            "android": "1:842365244917:android:27fa79a4488f8cb0ccfcbc",
+            "ios": "1:842365244917:ios:26c84ba91aa8c961ccfcbc",
+            "macos": "1:842365244917:ios:26c84ba91aa8c961ccfcbc",
+            "web": "1:842365244917:web:d6c6887ccad5cf8accfcbc",
+            "windows": "1:842365244917:web:d8e8125362761bf2ccfcbc"
+          }
+        }
+      }
+    }
   }
 }
